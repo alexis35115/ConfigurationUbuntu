@@ -73,6 +73,8 @@ l'extension de docker aussi?
 
 faudrait valider la liste des extensions, faudrait faire un ménage??
 
+Expliquer comment installer snap?
+
 ### Git
 
 [Référence pour la configuration](https://git-scm.com/book/fr/v2/Personnalisation-de-Git-Configuration-de-Git)
@@ -326,23 +328,14 @@ inclure le lien pour les lock lors des updates et celui des duplicates aussi
 
 ## TODOS
 
-script de mise à jour? et validation de la configuration?
-
-script pour printer la version des logiciels pour une comparaison facile?
-
-essayer une vm
-
-script pour valider les services au démarrage?
-
-script pour restarter les différents services? ou du moins la ligne de commande.
-
-JE N'AI PAS LA BONNE VERSION DE NODEJS ???? JE VEUX LA LTS
-
-voir le fuck quand je fais apt-get update avec les choses en double
+1. Script de mise à jour? et validation de la configuration?
+2. Script pour printer la version des logiciels pour une comparaison facile
+3. Essayer une vm
+4. script pour valider les services au démarrage?
+5. script pour restarter les différents services? ou du moins la ligne de commande.
+6. voir le fuck quand je fais apt-get update avec les choses en double
 seulement supprimer les lignes en doubles : <https://askubuntu.com/questions/760896/how-can-i-fix-apt-error-w-target-packages-is-configured-multiple-times>
-
-avoir un repo bidon que je pourrais faire un git clone et tout pour valider le php et apache
-
-installer -> <https://github.com/microsoft/cascadia-code>
-
-faut que je valide mes trucs!!!
+7. avoir un repo bidon que je pourrais faire un git clone et tout pour valider le php et apache
+8. installer -> <https://github.com/microsoft/cascadia-code>
+9. faut que je valide mes trucs!!!
+10. Inclure des procédures pour valider l'installation et tout?
