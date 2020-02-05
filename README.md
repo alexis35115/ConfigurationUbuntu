@@ -1,6 +1,5 @@
 # Configuration machine Ubuntu
 
-
 __CECI EST ENCORE UN DOCUMENT DE TRAVAIL__
 
 Voici quelques instructions pour configurer une machine Ubuntu 18.04 LTS
@@ -9,25 +8,34 @@ commencer par : sudo apt update && sudo apt upgrade
 
 ## Programmes
 
-### Nodejs et npm
+### Node.js et npm
 
-[Nodejs et npm](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/)
+[Référence](https://tecadmin.net/install-latest-nodejs-npm-on-ubuntu/)
 
+```sh
 sudo apt-get install curl
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install nodejs
+```
 
 ### Visual Studio Code
 
 [Installer Visual Studio Code Ubuntu](https://code.visualstudio.com/docs/setup/linux)
 [Exporter extension Visual Studio Code](https://stackoverflow.com/questions/35773299/how-can-you-export-vs-code-extension-list)
 
-Installation : sudo snap install --classic code
+Installation :
+
+```sh
+sudo snap install --classic code
+```
 
 configuration visual studio code??
 
+expliquer comment ajouter les extensions ???
+
 extensions :
 
+```sh
 code --install-extension DavidAnson.vscode-markdownlint
 code --install-extension DotJoshJohnson.xml
 code --install-extension eamodio.gitlens
@@ -48,6 +56,7 @@ code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension yzane.markdown-pdf
 code --install-extension yzhang.markdown-all-in-one
 code --install-extension Zignd.html-css-class-completion
+```
 
 "configuration du fichier json"?
 
@@ -66,26 +75,39 @@ faudrait valider la liste des extensions, faudrait faire un ménage??
 
 ### Git
 
-[Configurations initiales Git](https://git-scm.com/book/fr/v2/Personnalisation-de-Git-Configuration-de-Git)
+[Référence pour la configuration](https://git-scm.com/book/fr/v2/Personnalisation-de-Git-Configuration-de-Git)
 
-installation : sudo apt install git -y
+Installation :
+
+```sh
+sudo apt install git -y
+```
 
 Configuration :
+
+```sh
 git config --global user.name "Alexis Garon-Michaud"
 git config --global user.email "alexis_35115@hotmail.com"
+```
 
 ### GitCola
 
+Installation :
+
+```sh
 sudo apt-get install git-cola
+```
 
 ### Chrome
 
+[Référence](https://itsfoss.com/install-chrome-ubuntu/)
+
 Installation :
+
+```sh
 sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
-[Installer Chrome](https://itsfoss.com/install-chrome-ubuntu/)
-
-ajouter des favorits pour phpmyadmin?
+```
 
 ### LAMP (Linux Apache MySql PHP)
 
@@ -141,59 +163,78 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 ### DockStation.io
 
-<https://www.techrepublic.com/article/how-to-install-dockstation-on-ubuntu19-04/>
+[Référence](https://www.techrepublic.com/article/how-to-install-dockstation-on-ubuntu19-04/)
 
-télécharger le .deb file et le mettre dans download
-sudo dpkg -i dockstation*.deb    à partir du répertoire download
+Télécharger le .deb file et le mettre dans download
+
+À partir du répertoire "Downloads" :
+
+```sh
+sudo dpkg -i dockstation*.deb
 sudo apt-get install -f
+```
 
 ### Virtual Box
 
-<https://tecadmin.net/install-virtualbox-on-ubuntu-18-04/>
+[Référence](https://tecadmin.net/install-virtualbox-on-ubuntu-18-04/)
 
+```sh
 wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -
-wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
-sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian bionic contrib"
-sudo apt update
-sudo apt install virtualbox-6.0
 
-ESSAYER UNE vm
+wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
+
+sudo add-apt-repository "deb http://download.virtualbox.org/virtualbox/debian bionic contrib"
+
+sudo apt update
+
+sudo apt install virtualbox-6.0
+```
 
 ### Installer .net core 3.1
 
-<https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-ubuntu-1804>
+[Référence](https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-ubuntu-1804)
 
+```sh
 wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
 sudo dpkg -i packages-microsoft-prod.deb
+```
 
+```sh
 sudo add-apt-repository universe
 sudo apt-get update
 sudo apt-get install apt-transport-https
 sudo apt-get update
 sudo apt-get install dotnet-sdk-3.1
+```
 
+```sh
 sudo add-apt-repository universe
 sudo apt-get update
 sudo apt-get install apt-transport-https
 sudo apt-get update
 sudo apt-get install aspnetcore-runtime-3.1
+```
 
+```sh
 sudo add-apt-repository universe
 sudo apt-get update
 sudo apt-get install apt-transport-https
 sudo apt-get update
 sudo apt-get install dotnet-runtime-3.1
+```
 
 ### Eclipse
 
-<https://linuxize.com/post/how-to-install-the-latest-eclipse-ide-on-ubuntu-18-04/>
+[Référence](https://linuxize.com/post/how-to-install-the-latest-eclipse-ide-on-ubuntu-18-04/)
 
+```sh
 sudo apt install default-jre
 sudo snap install --classic eclipse
+```
 
 ### PostgresSQL
 
-<https://www.howtoforge.com/tutorial/how-to-install-postgresql-and-pgadmin4-on-ubuntu-1804-lts/>
+[Référence](https://www.howtoforge.com/tutorial/how-to-install-postgresql-and-pgadmin4-on-ubuntu-1804-lts/)
 
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 
@@ -268,17 +309,28 @@ mongo -u admin -p password --authenticationDatabase admin
 
 ### Jed
 
-Install jed
-Installing jed package on Ubuntu 14.04 (Trusty Tahr) is as easy as running the following command on terminal:
+[Référence](https://zoomadmin.com/HowToInstall/UbuntuPackage/jed)
 
+```sh
 sudo apt-get update
 sudo apt-get install jed
+```
+
+## Résolutions de problèmes
+
+### Réinitialiser son mot de passe root sous mysql
+
+<https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux>, script à faire?
+
+inclure le lien pour les lock lors des updates et celui des duplicates aussi
 
 ## TODOS
 
 script de mise à jour? et validation de la configuration?
 
 script pour printer la version des logiciels pour une comparaison facile?
+
+essayer une vm
 
 script pour valider les services au démarrage?
 
@@ -294,11 +346,3 @@ avoir un repo bidon que je pourrais faire un git clone et tout pour valider le p
 installer -> <https://github.com/microsoft/cascadia-code>
 
 faut que je valide mes trucs!!!
-
-## Résolutions de problèmes
-
-### Réinitialiser son mot de passe root sous mysql
-
-<https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux>, script à faire?
-
-### dsada
