@@ -92,6 +92,12 @@ git config --global user.name "Alexis Garon-Michaud"
 git config --global user.email "alexis_35115@hotmail.com"
 ```
 
+Pour ne pas avoir à saisir ton identifiant et son mot de passe sur Github lors d'un push. Il faut exécuter la [ligne](https://stackoverflow.com/a/35943882) ici-bas :
+
+```sh
+git config --global credential.helper store
+```
+
 ### GitCola
 
 Installation :
