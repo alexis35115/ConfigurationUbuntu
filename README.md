@@ -77,15 +77,13 @@ Expliquer comment installer snap?
 
 ### Git
 
-[Référence pour la configuration](https://git-scm.com/book/fr/v2/Personnalisation-de-Git-Configuration-de-Git)
-
 Installation :
 
 ```sh
 sudo apt install git -y
 ```
 
-Configuration :
+[Configuration](https://git-scm.com/book/fr/v2/Personnalisation-de-Git-Configuration-de-Git) :
 
 ```sh
 git config --global user.name "Alexis Garon-Michaud"
@@ -98,19 +96,15 @@ Pour ne pas avoir à saisir ton identifiant et son mot de passe sur Github lors 
 git config --global credential.helper store
 ```
 
-### GitCola
-
-Installation :
+### [GitCola](https://git-cola.github.io/)
 
 ```sh
 sudo apt-get install git-cola
 ```
 
-### Chrome
+### [Chrome](https://www.google.com/intl/fr/chrome/)
 
 [Référence](https://itsfoss.com/install-chrome-ubuntu/)
-
-Installation :
 
 ```sh
 sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
@@ -139,7 +133,7 @@ Faire un test d'être capable de me connecter à la base de données!
 
 et l'Affaire de cache j'en parle pas.. manque d'autres trucs?
 
-### Docker
+### [Docker](https://www.docker.com/)
 
 <https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04> -> Alternative: Install Docker from Official Repository
 
@@ -169,7 +163,7 @@ docker compose :
 sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
 
-### DockStation.io
+### [DockStation.io](https://dockstation.io/)
 
 [Référence](https://www.techrepublic.com/article/how-to-install-dockstation-on-ubuntu19-04/)
 
@@ -182,7 +176,7 @@ sudo dpkg -i dockstation*.deb
 sudo apt-get install -f
 ```
 
-### Virtual Box
+### [VirtualBox](https://www.virtualbox.org/)
 
 [Référence](https://tecadmin.net/install-virtualbox-on-ubuntu-18-04/)
 
@@ -198,7 +192,7 @@ sudo apt update
 sudo apt install virtualbox-6.0
 ```
 
-### Installer .Net core 3.1
+### [Net Core 3.1](https://dotnet.microsoft.com/)
 
 [Référence](https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-ubuntu-1804)
 
@@ -231,7 +225,7 @@ sudo apt-get update
 sudo apt-get install dotnet-runtime-3.1
 ```
 
-### Eclipse
+### [Eclipse](https://www.eclipse.org/downloads/packages/release/mars/r/eclipse-ide-java-developers)
 
 [Référence](https://linuxize.com/post/how-to-install-the-latest-eclipse-ide-on-ubuntu-18-04/)
 
@@ -242,7 +236,7 @@ sudo snap install --classic eclipse
 
 _Prendre note que l'installation ajoute également le OpenJDK._
 
-### PostgreSQL
+### [PostgreSQL](https://www.postgresql.org/)
 
 [Référence](https://www.howtoforge.com/tutorial/how-to-install-postgresql-and-pgadmin4-on-ubuntu-1804-lts/)
 
@@ -265,7 +259,7 @@ j'ai mis le mot de passe "password"
 
 RÉFÉRENCE : <https://stackoverflow.com/questions/7695962/postgresql-password-authentication-failed-for-user-postgres> ET <https://www.liquidweb.com/kb/what-is-the-default-password-for-postgresql/>
 
-### PgAdmin
+### [PgAdmin](https://www.pgadmin.org/)
 
 <https://www.howtoforge.com/tutorial/how-to-install-postgresql-and-pgadmin4-on-ubuntu-1804-lts/>
 
@@ -283,7 +277,7 @@ pw = "password"
 
 login page : <http://localhost/pgadmin4> ET NON <http://10.9.9.15/pgadmin4/>
 
-### MongoDB
+### [MongoDB](https://www.mongodb.com/fr)
 
 <https://www.howtoforge.com/tutorial/install-mongodb-on-ubuntu/>
 
@@ -317,7 +311,7 @@ sudo systemctl daemon-reload
 pour se connecter :
 mongo -u admin -p password --authenticationDatabase admin
 
-### Jed
+### [Jed](https://www.jedsoft.org/jed/)
 
 [Référence](https://zoomadmin.com/HowToInstall/UbuntuPackage/jed)
 
@@ -347,3 +341,4 @@ seulement supprimer les lignes en doubles : <https://askubuntu.com/questions/760
 8. installer -> <https://github.com/microsoft/cascadia-code>
 9. faut que je valide mes trucs!!!
 10. Inclure des procédures pour valider l'installation et tout?
+11. script créer un logon dans mysql
