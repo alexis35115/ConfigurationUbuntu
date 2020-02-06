@@ -198,7 +198,7 @@ sudo apt update
 sudo apt install virtualbox-6.0
 ```
 
-### Installer .net core 3.1
+### Installer .Net core 3.1
 
 [Référence](https://docs.microsoft.com/en-us/dotnet/core/install/linux-package-manager-ubuntu-1804)
 
@@ -240,7 +240,9 @@ sudo apt install default-jre
 sudo snap install --classic eclipse
 ```
 
-### PostgresSQL
+_Prendre note que l'installation ajoute également le OpenJDK._
+
+### PostgreSQL
 
 [Référence](https://www.howtoforge.com/tutorial/how-to-install-postgresql-and-pgadmin4-on-ubuntu-1804-lts/)
 
@@ -326,7 +328,7 @@ sudo apt-get install jed
 
 ## Résolutions de problèmes
 
-### Réinitialiser son mot de passe root sous mysql
+### Réinitialiser son mot de passe `root` sous mysql
 
 <https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux>, script à faire?
 
