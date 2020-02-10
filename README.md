@@ -342,3 +342,4 @@ seulement supprimer les lignes en doubles : <https://askubuntu.com/questions/760
 9. faut que je valide mes trucs!!!
 10. Inclure des procédures pour valider l'installation et tout?
 11. script créer un logon dans mysql
+12. pour git inclure ça? https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase
