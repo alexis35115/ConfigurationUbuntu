@@ -345,3 +345,4 @@ seulement supprimer les lignes en doubles : <https://askubuntu.com/questions/760
 12. pour git inclure ça? https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase
 13. procédure pour réinitialiser le mot de passe root sur LAMP, XAMP https://stackoverflow.com/questions/24566453/resetting-mysql-root-password-with-xampp-on-localhost/57073767 et https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux
 14. Corriger la résolution d'ubuntu à partir de Hyper-V https://metinsaylan.com/8991/how-to-change-screen-resolution-on-ubuntu-18-04-in-hyper-v/
+15. Mysqli is missing <https://stackoverflow.com/questions/10769148/extension-mysqli-is-missing-phpmyadmin-doesnt-work> <https://askubuntu.com/questions/999999/php-with-pdo-mysql-in-ubuntu-16-04> <https://stackoverflow.com/questions/53525427/php-startup-issue-on-ubuntu-18-04>
