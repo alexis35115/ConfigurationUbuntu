@@ -354,3 +354,4 @@ seulement supprimer les lignes en doubles : <https://askubuntu.com/questions/760
 21. Changer le port de SSH <https://www.ubuntu18.com/ubuntu-change-ssh-port/>
 22. Getting started with OVH <https://docs.ovh.com/gb/en/vps/getting-started-vps/>
 23. Passer son site en HTTPS avec SSL <https://docs.ovh.com/fr/hosting/passer-site-internet-https-ssl/>
+24. empêcher le root à SSH <https://www.youtube.com/watch?v=Bz3QK5Esg5E>
