@@ -320,6 +320,35 @@ sudo apt-get update
 sudo apt-get install jed
 ```
 
+## Configurations
+
+### Ajouter une police
+
+Via une interface graphique <https://itsfoss.com/install-fonts-ubuntu/>
+
+Via lignes de commandes :
+
+```sh
+# Documentations :
+# - https://linuxconfig.org/how-to-install-fonts-on-ubuntu-18-04-bionic-beaver-linux
+# - https://linoxide.com/linux-how-to/install-fonts-on-ubuntu/
+
+# Prérequis
+sudo apt-get install fontconfig -y
+
+# Téléchargement du fichier TTF dans le répertoire "Downloads"
+curl -L -O https://github.com/microsoft/cascadia-code/releases/download/v1911.21/CascadiaPL.ttf --output ~/Downloads/CascadiaPL.ttf
+
+# Créer le répertoire pour contenir les polices si celui-ci n'existe pas
+mkdir -p ~/.local/share/fonts
+
+# Déplacer le fichier ttf dans le répertoire des polices
+mv ~/Downloads/CascadiaPL.ttf  ~/.local/share/fonts
+
+# Vider et regénérer la cache de la police
+fc-cache -f -v
+```
+
 ## Résolutions de problèmes
 
 ### Réinitialiser son mot de passe `root` sous mysql
@@ -338,7 +367,6 @@ inclure le lien pour les lock lors des updates et celui des duplicates aussi
 6. voir le fuck quand je fais apt-get update avec les choses en double
 seulement supprimer les lignes en doubles : <https://askubuntu.com/questions/760896/how-can-i-fix-apt-error-w-target-packages-is-configured-multiple-times>
 7. avoir un repo bidon que je pourrais faire un git clone et tout pour valider le php et apache
-8. installer -> <https://github.com/microsoft/cascadia-code>
 9. faut que je valide mes trucs!!!
 10. Inclure des procédures pour valider l'installation et tout?
 11. script créer un logon dans mysql  https://www.a2hosting.com/kb/developer-corner/mysql/managing-mysql-databases-and-users-from-the-command-line
@@ -355,3 +383,23 @@ seulement supprimer les lignes en doubles : <https://askubuntu.com/questions/760
 22. Getting started with OVH <https://docs.ovh.com/gb/en/vps/getting-started-vps/>
 23. Passer son site en HTTPS avec SSL <https://docs.ovh.com/fr/hosting/passer-site-internet-https-ssl/>
 24. empêcher le root à SSH <https://www.youtube.com/watch?v=Bz3QK5Esg5E>
+25. Il faudra bien ajouter .Net 5 un jour ..
+26. Ajouter une notion dans le document que l'installation des produits est pour une distribution debian et que les essais sont sous ubuntu
+
+
+ça pour vscode? des fois snap est mort
+
+installer curl avant !! sudo apt install curl -y
+
+curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
+
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+Then update the package cache and install the package using:
+
+en deux commandes!
+
+
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install code # or code-insiders
