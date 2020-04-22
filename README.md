@@ -276,7 +276,6 @@ RÉFÉRENCE : <https://stackoverflow.com/questions/7695962/postgresql-password-a
 
 <https://www.howtoforge.com/tutorial/how-to-install-postgresql-and-pgadmin4-on-ubuntu-1804-lts/>
 
-
 wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 
 sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
@@ -332,6 +331,14 @@ mongo -u admin -p password --authenticationDatabase admin
 sudo apt-get update
 sudo apt-get install jed
 ```
+
+## Gestion des comptes
+
+Lecture générale sur la [gestion des usagers](https://help.ubuntu.com/lts/serverguide/user-management.html) sous Ubuntu.
+
+Créer un usager et y donner les accès root <https://www.liquidweb.com/kb/add-user-grant-root-privileges-ubuntu-18-04/>
+
+Comment désactiver le compte root <https://www.tecmint.com/disable-root-login-in-linux/>
 
 ## Monitoring
 
@@ -443,18 +450,16 @@ Passer son site en HTTPS avec SSL <https://docs.ovh.com/fr/hosting/passer-site-i
 
 Je ne connais pas le mot de passe root de ma machine ubuntu sur OVH suite à sa création <http://community.ovh.com/t/bonjour-je-nest-recus-aucun-mot-de-passe-root-lors-de-mon-achat/6521>
 
+Passer root et changer le mot de passe <https://docs.ovh.com/fr/public-cloud/passer-root-et-definir-un-mot-de-passe/>
+
 ## TODOS
 
 1. Script de mise à jour? et validation de la configuration?
 2. Script pour printer la version des logiciels pour une comparaison facile
 3. avoir un repo bidon que je pourrais faire un git clone et tout pour valider le php et apache
 4. script créer un logon dans mysql  https://www.a2hosting.com/kb/developer-corner/mysql/managing-mysql-databases-and-users-from-the-command-line
-5. pour git inclure ça? https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase
-6. procédure pour réinitialiser le mot de passe root sur LAMP, XAMP https://stackoverflow.com/questions/24566453/resetting-mysql-root-password-with-xampp-on-localhost/57073767 et https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux
-7. Gestion des usagers sur ubuntu <https://help.ubuntu.com/lts/serverguide/user-management.html>
-8. Passer root et changer le mot de passe <https://docs.ovh.com/fr/public-cloud/passer-root-et-definir-un-mot-de-passe/>
-9. Créer un usager et donner les accès root <https://www.liquidweb.com/kb/add-user-grant-root-privileges-ubuntu-18-04/>
-10. Désactiver le compte root <https://www.tecmint.com/disable-root-login-in-linux/>
-11. Changer le port de SSH <https://www.ubuntu18.com/ubuntu-change-ssh-port/>
-12. empêcher le root à SSH <https://www.youtube.com/watch?v=Bz3QK5Esg5E>
-13. Il faudra bien ajouter .Net 5 un jour ..
+5. procédure pour réinitialiser le mot de passe root sur LAMP, XAMP https://stackoverflow.com/questions/24566453/resetting-mysql-root-password-with-xampp-on-localhost/57073767 et https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux
+
+10. Changer le port de SSH <https://www.ubuntu18.com/ubuntu-change-ssh-port/>
+11. empêcher le root à SSH <https://www.youtube.com/watch?v=Bz3QK5Esg5E>
+12. Il faudra bien ajouter .Net 5 un jour ..
