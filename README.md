@@ -415,6 +415,12 @@ fc-cache -f -v
 
 inclure le lien pour les lock lors des updates et celui des duplicates aussi
 
+### Impossible de faire un apt-get update "Target Packages … is configured multiple times”
+
+Il suffit de supprimer les lignes en doubles.
+
+Voir la référence : <https://askubuntu.com/questions/760896/how-can-i-fix-apt-error-w-target-packages-is-configured-multiple-times>
+
 ## OVH
 
 Getting started with OVH <https://docs.ovh.com/gb/en/vps/getting-started-vps/>
@@ -427,9 +433,7 @@ Je ne connais pas le mot de passe root de ma machine ubuntu sur OVH suite à sa 
 
 1. Script de mise à jour? et validation de la configuration?
 2. Script pour printer la version des logiciels pour une comparaison facile
-3. Essayer une vm
-4. voir le fuck quand je fais apt-get update avec les choses en double
-seulement supprimer les lignes en doubles : <https://askubuntu.com/questions/760896/how-can-i-fix-apt-error-w-target-packages-is-configured-multiple-times>
+3. 
 7. avoir un repo bidon que je pourrais faire un git clone et tout pour valider le php et apache
 8.  script créer un logon dans mysql  https://www.a2hosting.com/kb/developer-corner/mysql/managing-mysql-databases-and-users-from-the-command-line
 9.  pour git inclure ça? https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase
