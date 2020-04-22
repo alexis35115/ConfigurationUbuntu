@@ -26,7 +26,20 @@ sudo apt-get install nodejs
 Installation :
 
 ```sh
-sudo snap install --classic code
+# Installer curl
+sudo apt install curl -y
+
+# Installer le repository et la clé manuellement
+curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+
+sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
+
+sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
+
+# Mise à jour de la cache du package et installation
+sudo apt-get install apt-transport-https
+sudo apt-get update
+sudo apt-get install code # or code-insiders
 ```
 
 configuration visual studio code??
@@ -385,21 +398,3 @@ seulement supprimer les lignes en doubles : <https://askubuntu.com/questions/760
 24. empêcher le root à SSH <https://www.youtube.com/watch?v=Bz3QK5Esg5E>
 25. Il faudra bien ajouter .Net 5 un jour ..
 26. Ajouter une notion dans le document que l'installation des produits est pour une distribution debian et que les essais sont sous ubuntu
-
-
-ça pour vscode? des fois snap est mort
-
-installer curl avant !! sudo apt install curl -y
-
-curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
-sudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/
-
-sudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
-Then update the package cache and install the package using:
-
-en deux commandes!
-
-
-sudo apt-get install apt-transport-https
-sudo apt-get update
-sudo apt-get install code # or code-insiders
