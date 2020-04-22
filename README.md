@@ -415,7 +415,11 @@ fc-cache -f -v
 
 inclure le lien pour les lock lors des updates et celui des duplicates aussi
 
-### Impossible de faire un apt-get update "Target Packages … is configured multiple times”
+### Mysqli is missing
+
+<https://stackoverflow.com/questions/10769148/extension-mysqli-is-missing-phpmyadmin-doesnt-work> <https://askubuntu.com/questions/999999/php-with-pdo-mysql-in-ubuntu-16-04> <https://stackoverflow.com/questions/53525427/php-startup-issue-on-ubuntu-18-04>
+
+### Impossible de faire un apt-get update "Target Packages … is configured multiple times"
 
 Il suffit de supprimer les lignes en doubles.
 
@@ -439,11 +443,10 @@ Je ne connais pas le mot de passe root de ma machine ubuntu sur OVH suite à sa 
 9.  pour git inclure ça? https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase
 10. procédure pour réinitialiser le mot de passe root sur LAMP, XAMP https://stackoverflow.com/questions/24566453/resetting-mysql-root-password-with-xampp-on-localhost/57073767 et https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux
 11. Corriger la résolution d'ubuntu à partir de Hyper-V https://metinsaylan.com/8991/how-to-change-screen-resolution-on-ubuntu-18-04-in-hyper-v/
-12. Mysqli is missing <https://stackoverflow.com/questions/10769148/extension-mysqli-is-missing-phpmyadmin-doesnt-work> <https://askubuntu.com/questions/999999/php-with-pdo-mysql-in-ubuntu-16-04> <https://stackoverflow.com/questions/53525427/php-startup-issue-on-ubuntu-18-04>
-14. Gestion des usagers sur ubuntu <https://help.ubuntu.com/lts/serverguide/user-management.html>
-15. Passer root et changer le mot de passe <https://docs.ovh.com/fr/public-cloud/passer-root-et-definir-un-mot-de-passe/>
-16. Créer un usager et donner les accès root <https://www.liquidweb.com/kb/add-user-grant-root-privileges-ubuntu-18-04/>
-17. Désactiver le compte root <https://www.tecmint.com/disable-root-login-in-linux/>
-18. Changer le port de SSH <https://www.ubuntu18.com/ubuntu-change-ssh-port/>
-19. empêcher le root à SSH <https://www.youtube.com/watch?v=Bz3QK5Esg5E>
-20. Il faudra bien ajouter .Net 5 un jour ..
+12. Gestion des usagers sur ubuntu <https://help.ubuntu.com/lts/serverguide/user-management.html>
+13. Passer root et changer le mot de passe <https://docs.ovh.com/fr/public-cloud/passer-root-et-definir-un-mot-de-passe/>
+14. Créer un usager et donner les accès root <https://www.liquidweb.com/kb/add-user-grant-root-privileges-ubuntu-18-04/>
+15. Désactiver le compte root <https://www.tecmint.com/disable-root-login-in-linux/>
+16. Changer le port de SSH <https://www.ubuntu18.com/ubuntu-change-ssh-port/>
+17. empêcher le root à SSH <https://www.youtube.com/watch?v=Bz3QK5Esg5E>
+18. Il faudra bien ajouter .Net 5 un jour ..
