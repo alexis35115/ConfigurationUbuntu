@@ -340,46 +340,45 @@ Créer un usager et y donner les accès root <https://www.liquidweb.com/kb/add-u
 
 Comment désactiver le compte root <https://www.tecmint.com/disable-root-login-in-linux/>
 
-## Monitoring
 
-### Gestion des services
+## Gestion des services
 
 Références :
 
 - <https://www.2daygeek.com/how-to-check-all-running-services-in-linux/>
 - <https://www.techrepublic.com/article/how-to-start-stop-and-restart-services-in-linux/>
 
-#### Arrêter un service
+### Arrêter un service
 
 ```sh
 ​sudo service httpd stop
 ```
 
-#### Démarrer un service
+### Démarrer un service
 
 ```sh
 sudo service httpd start
 ```
 
-#### Redémarrer un service
+### Redémarrer un service
 
 ```sh
 ​sudo service httpd restart
 ```
 
-#### Lister les services actuellement en cours
+### Lister les services actuellement en cours
 
 ```sh
 systemctl | grep running
 ```
 
-#### Lister les services activés au démarage
+### Lister les services activés au démarage
 
 ```sh
 systemctl list-unit-files | grep enabled
 ```
 
-#### Utilisation de la commande chkservice
+### Utilisation de la commande chkservice
 
 ```sh
 sudo chkservice
@@ -459,7 +458,6 @@ Passer root et changer le mot de passe <https://docs.ovh.com/fr/public-cloud/pas
 3. avoir un repo bidon que je pourrais faire un git clone et tout pour valider le php et apache
 4. script créer un logon dans mysql  https://www.a2hosting.com/kb/developer-corner/mysql/managing-mysql-databases-and-users-from-the-command-line
 5. procédure pour réinitialiser le mot de passe root sur LAMP, XAMP https://stackoverflow.com/questions/24566453/resetting-mysql-root-password-with-xampp-on-localhost/57073767 et https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux
-
-10. Changer le port de SSH <https://www.ubuntu18.com/ubuntu-change-ssh-port/>
-11. empêcher le root à SSH <https://www.youtube.com/watch?v=Bz3QK5Esg5E>
-12. Il faudra bien ajouter .Net 5 un jour ..
+6. Changer le port de SSH <https://www.ubuntu18.com/ubuntu-change-ssh-port/>
+7. empêcher le root à SSH <https://www.youtube.com/watch?v=Bz3QK5Esg5E>
+8. Il faudra bien ajouter .Net 5 un jour ..
