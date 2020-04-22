@@ -333,6 +333,51 @@ sudo apt-get update
 sudo apt-get install jed
 ```
 
+## Monitoring
+
+### Gestion des services
+
+Références :
+
+- <https://www.2daygeek.com/how-to-check-all-running-services-in-linux/>
+- <https://www.techrepublic.com/article/how-to-start-stop-and-restart-services-in-linux/>
+
+#### Arrêter un service
+
+```sh
+​sudo service httpd stop
+```
+
+#### Démarrer un service
+
+```sh
+sudo service httpd start
+```
+
+#### Redémarrer un service
+
+```sh
+​sudo service httpd restart
+```
+
+#### Lister les services actuellement en cours
+
+```sh
+systemctl | grep running
+```
+
+#### Lister les services activés au démarage
+
+```sh
+systemctl list-unit-files | grep enabled
+```
+
+#### Utilisation de la commande chkservice
+
+```sh
+sudo chkservice
+```
+
 ## Configurations
 
 ### Ajouter une police
@@ -383,9 +428,7 @@ Je ne connais pas le mot de passe root de ma machine ubuntu sur OVH suite à sa 
 1. Script de mise à jour? et validation de la configuration?
 2. Script pour printer la version des logiciels pour une comparaison facile
 3. Essayer une vm
-4. script pour valider les services au démarrage?
-5. script pour restarter les différents services? ou du moins la ligne de commande.
-6. voir le fuck quand je fais apt-get update avec les choses en double
+4. voir le fuck quand je fais apt-get update avec les choses en double
 seulement supprimer les lignes en doubles : <https://askubuntu.com/questions/760896/how-can-i-fix-apt-error-w-target-packages-is-configured-multiple-times>
 7. avoir un repo bidon que je pourrais faire un git clone et tout pour valider le php et apache
 8.  script créer un logon dans mysql  https://www.a2hosting.com/kb/developer-corner/mysql/managing-mysql-databases-and-users-from-the-command-line
