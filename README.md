@@ -146,6 +146,10 @@ Faire un test d'être capable de me connecter à la base de données!
 
 et l'Affaire de cache j'en parle pas.. manque d'autres trucs?
 
+procédure pour réinitialiser le mot de passe root sur LAMP, XAMP <https://stackoverflow.com/questions/24566453/resetting-mysql-root-password-with-xampp-on-localhost/57073767> et <https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux>
+
+script créer un logon dans mysql <https://www.a2hosting.com/kb/developer-corner/mysql/managing-mysql-databases-and-users-from-the-command-line>
+
 ### [Docker](https://www.docker.com/)
 
 <https://phoenixnap.com/kb/how-to-install-docker-on-ubuntu-18-04> -> Alternative: Install Docker from Official Repository
@@ -456,11 +460,7 @@ Je ne connais pas le mot de passe root de ma machine ubuntu sur OVH suite à sa 
 
 Passer root et changer le mot de passe <https://docs.ovh.com/fr/public-cloud/passer-root-et-definir-un-mot-de-passe/>
 
-## TODOS
+## TODOS dans le futur
 
-1. Script de mise à jour? et validation de la configuration?
-2. Script pour printer la version des logiciels pour une comparaison facile
-3. avoir un repo bidon que je pourrais faire un git clone et tout pour valider le php et apache
-4. script créer un logon dans mysql  https://www.a2hosting.com/kb/developer-corner/mysql/managing-mysql-databases-and-users-from-the-command-line
-5. procédure pour réinitialiser le mot de passe root sur LAMP, XAMP https://stackoverflow.com/questions/24566453/resetting-mysql-root-password-with-xampp-on-localhost/57073767 et https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux
-6. Il faudra bien ajouter .Net 5 un jour ..
+1. Script pour valdier la configuration
+2. Script pour afficher la version des logiciels pour une comparaison facile
