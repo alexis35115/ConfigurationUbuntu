@@ -417,7 +417,11 @@ inclure le lien pour les lock lors des updates et celui des duplicates aussi
 
 ### Mysqli is missing
 
-<https://stackoverflow.com/questions/10769148/extension-mysqli-is-missing-phpmyadmin-doesnt-work> <https://askubuntu.com/questions/999999/php-with-pdo-mysql-in-ubuntu-16-04> <https://stackoverflow.com/questions/53525427/php-startup-issue-on-ubuntu-18-04>
+<https://stackoverflow.com/questions/10769148/extension-mysqli-is-missing-phpmyadmin-doesnt-work>
+
+<https://askubuntu.com/questions/999999/php-with-pdo-mysql-in-ubuntu-16-04>
+
+<https://stackoverflow.com/questions/53525427/php-startup-issue-on-ubuntu-18-04>
 
 ### Impossible de faire un apt-get update "Target Packages … is configured multiple times"
 
