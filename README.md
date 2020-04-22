@@ -380,21 +380,18 @@ inclure le lien pour les lock lors des updates et celui des duplicates aussi
 6. voir le fuck quand je fais apt-get update avec les choses en double
 seulement supprimer les lignes en doubles : <https://askubuntu.com/questions/760896/how-can-i-fix-apt-error-w-target-packages-is-configured-multiple-times>
 7. avoir un repo bidon que je pourrais faire un git clone et tout pour valider le php et apache
-9. faut que je valide mes trucs!!!
-10. Inclure des procédures pour valider l'installation et tout?
-11. script créer un logon dans mysql  https://www.a2hosting.com/kb/developer-corner/mysql/managing-mysql-databases-and-users-from-the-command-line
-12. pour git inclure ça? https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase
-13. procédure pour réinitialiser le mot de passe root sur LAMP, XAMP https://stackoverflow.com/questions/24566453/resetting-mysql-root-password-with-xampp-on-localhost/57073767 et https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux
-14. Corriger la résolution d'ubuntu à partir de Hyper-V https://metinsaylan.com/8991/how-to-change-screen-resolution-on-ubuntu-18-04-in-hyper-v/
-15. Mysqli is missing <https://stackoverflow.com/questions/10769148/extension-mysqli-is-missing-phpmyadmin-doesnt-work> <https://askubuntu.com/questions/999999/php-with-pdo-mysql-in-ubuntu-16-04> <https://stackoverflow.com/questions/53525427/php-startup-issue-on-ubuntu-18-04>
-16. Je ne connais pas le mot de passe root de ma machine ubuntu sur OVH suite à sa création <http://community.ovh.com/t/bonjour-je-nest-recus-aucun-mot-de-passe-root-lors-de-mon-achat/6521>
-17. Gestion des usagers sur ubuntu <https://help.ubuntu.com/lts/serverguide/user-management.html>
-18. Passer root et changer le mot de passe <https://docs.ovh.com/fr/public-cloud/passer-root-et-definir-un-mot-de-passe/>
-19. Créer un usager et donner les accès root <https://www.liquidweb.com/kb/add-user-grant-root-privileges-ubuntu-18-04/>
-20. Désactiver le compte root <https://www.tecmint.com/disable-root-login-in-linux/>
-21. Changer le port de SSH <https://www.ubuntu18.com/ubuntu-change-ssh-port/>
-22. Getting started with OVH <https://docs.ovh.com/gb/en/vps/getting-started-vps/>
-23. Passer son site en HTTPS avec SSL <https://docs.ovh.com/fr/hosting/passer-site-internet-https-ssl/>
-24. empêcher le root à SSH <https://www.youtube.com/watch?v=Bz3QK5Esg5E>
-25. Il faudra bien ajouter .Net 5 un jour ..
-26. Ajouter une notion dans le document que l'installation des produits est pour une distribution debian et que les essais sont sous ubuntu
+8.  script créer un logon dans mysql  https://www.a2hosting.com/kb/developer-corner/mysql/managing-mysql-databases-and-users-from-the-command-line
+9.  pour git inclure ça? https://stackoverflow.com/questions/10032461/git-keeps-asking-me-for-my-ssh-key-passphrase
+10. procédure pour réinitialiser le mot de passe root sur LAMP, XAMP https://stackoverflow.com/questions/24566453/resetting-mysql-root-password-with-xampp-on-localhost/57073767 et https://linuxconfig.org/how-to-reset-root-mysql-password-on-ubuntu-18-04-bionic-beaver-linux
+11. Corriger la résolution d'ubuntu à partir de Hyper-V https://metinsaylan.com/8991/how-to-change-screen-resolution-on-ubuntu-18-04-in-hyper-v/
+12. Mysqli is missing <https://stackoverflow.com/questions/10769148/extension-mysqli-is-missing-phpmyadmin-doesnt-work> <https://askubuntu.com/questions/999999/php-with-pdo-mysql-in-ubuntu-16-04> <https://stackoverflow.com/questions/53525427/php-startup-issue-on-ubuntu-18-04>
+13. Je ne connais pas le mot de passe root de ma machine ubuntu sur OVH suite à sa création <http://community.ovh.com/t/bonjour-je-nest-recus-aucun-mot-de-passe-root-lors-de-mon-achat/6521>
+14. Gestion des usagers sur ubuntu <https://help.ubuntu.com/lts/serverguide/user-management.html>
+15. Passer root et changer le mot de passe <https://docs.ovh.com/fr/public-cloud/passer-root-et-definir-un-mot-de-passe/>
+16. Créer un usager et donner les accès root <https://www.liquidweb.com/kb/add-user-grant-root-privileges-ubuntu-18-04/>
+17. Désactiver le compte root <https://www.tecmint.com/disable-root-login-in-linux/>
+18. Changer le port de SSH <https://www.ubuntu18.com/ubuntu-change-ssh-port/>
+19. Getting started with OVH <https://docs.ovh.com/gb/en/vps/getting-started-vps/>
+20. Passer son site en HTTPS avec SSL <https://docs.ovh.com/fr/hosting/passer-site-internet-https-ssl/>
+21. empêcher le root à SSH <https://www.youtube.com/watch?v=Bz3QK5Esg5E>
+22. Il faudra bien ajouter .Net 5 un jour ..
